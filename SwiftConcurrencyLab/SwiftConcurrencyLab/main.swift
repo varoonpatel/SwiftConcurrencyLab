@@ -8,4 +8,5 @@
 import Foundation
 
 //await AsyncLetExperiment.run()
-await TaskExperiment.run()
+//await TaskExperiment.run()
+await TaskDetachedExperiment.run()
