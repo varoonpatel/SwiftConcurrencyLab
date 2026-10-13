@@ -11,4 +11,5 @@ import Foundation
 //await TaskExperiment.run()
 //await TaskDetachedExperiment.run()
 //await ActorExperiment.run()
-await MainActorExperiment.run()
+//await MainActorExperiment.run()
+await GlobalActorExperiment.run()
