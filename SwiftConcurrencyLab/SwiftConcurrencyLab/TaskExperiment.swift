@@ -7,9 +7,9 @@
 
 import Foundation
 
-/// Task is used to create unstructured task. Unlike structured concurrency, parent task does not wait for child task to finish before leaving the scope.
+/// Task is used to create unstructured task. It allow us to create kick off async task from non-async context. Unlike structured concurrency, parent task does not wait for child task to finish before leaving the scope.
 /// Task inherit caller's actor isolation, task priority and task-local value
-/// We can set Task name and prioority while creating
+/// We can set Task name and priority while creating
 enum TaskExperiment {
     
     static func run() async {

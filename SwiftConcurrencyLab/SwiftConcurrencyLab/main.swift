@@ -9,7 +9,7 @@ import Foundation
 
 //await AsyncLetExperiment.run()
 //await TaskExperiment.run()
-//await TaskDetachedExperiment.run()
+await TaskDetachedExperiment.run()
 //await ActorExperiment.run()
 //await MainActorExperiment.run()
-await GlobalActorExperiment.run()
+//await GlobalActorExperiment.run()

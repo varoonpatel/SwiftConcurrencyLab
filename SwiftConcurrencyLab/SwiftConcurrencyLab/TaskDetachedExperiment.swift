@@ -16,8 +16,8 @@ enum TaskDetachedExperiment {
         print("===== Task.detached Experiment =====")
 
 //        await basicDetachedTask()
-        await actorIsolation()
-        await taskPriority()
+//        await actorIsolation()
+//        await taskPriority()
         await taskLocalValue()
     }
 

@@ -7,6 +7,9 @@
 
 import Foundation
 
+/// `actor` is used to protect the mutable state. It make sure only one pice of code access the acto's data at a time (Serial access).
+///  All the properties and methods are isolated to the actor.
+///  To access actor's isolated properties and methods outside of actor we have to use `await`
 enum ActorExperiment {
     static func run() async {
         print("===== Actor Experiment =====")

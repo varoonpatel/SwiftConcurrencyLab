@@ -33,7 +33,7 @@ enum GlobalActorExperiment {
         }
     }
     
-    /// `processImage` is also isolated to the `ImageProcessingActor` actor so, it does not need to cross the boundary to run both the methods. 
+    /// `processImage` is also isolated to the `ImageProcessingActor` actor so, it does not need to cross the boundary to run both the methods.
     @ImageProcessingActor
     static func processImage() async {
         let cache = ImageCache()
